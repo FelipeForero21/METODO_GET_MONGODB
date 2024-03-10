@@ -1,0 +1,158 @@
+{
+	"info": {
+		"_postman_id": "c10fdb2b-1a9c-436a-b252-9f812988c328",
+		"name": "EJERCICIOS 8/3/24",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "33509084",
+		"_collection_link": "https://blue-flare-210817.postman.co/workspace/My-Workspace~931d3d74-1254-45cc-8136-433563407235/collection/33509084-c10fdb2b-1a9c-436a-b252-9f812988c328?action=share&source=collection_link&creator=33509084"
+	},
+	"item": [
+		{
+			"name": "Ejercicio En Clase",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/dbv2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"dbv2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listado de todos los usuarios.",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/users",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listado de solo 10 usuarios.",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/users/limit",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"limit"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listado de todas las empresas",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/empresas",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"empresas"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listado de usuarios que sean de la empresa id 5.",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/users/companies/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"companies",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listado de usuarios que sean de Bangladesh.",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/users/country/Bangladesh",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"users",
+						"country",
+						"Bangladesh"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Listado de empresas de la ciudad Bangladesh.",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "http://localhost:3000/api/companies/city/Bangladesh",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"api",
+						"companies",
+						"city",
+						"Bangladesh"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
